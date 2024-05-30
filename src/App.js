@@ -35,7 +35,7 @@ function App() {
         <Link to={"/myCart"}>
           <nav>
             <div>
-              <span>Products {myState.first} &nbsp; &nbsp;</span>
+              <span>Items {myState.first} &nbsp; &nbsp;</span>
               <span>Price {myState.second} &nbsp; &nbsp;</span>
               <button
                 onClick={() => {
