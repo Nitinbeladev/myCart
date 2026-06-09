@@ -44,7 +44,7 @@ function App() {
                     .classList.toggle("myCart_show");
                 }}
               >
-                Show cart
+                My Cart
               </button>
             </div>
           </nav>
