@@ -35,6 +35,7 @@ function App() {
         <Link to={"/myCart"}>
           <nav>
             <div>
+            <span className="logo">shristi dimri website main </span>
               <span>Items {myState.first} &nbsp; &nbsp;</span>
               <span>Price {myState.second} &nbsp; &nbsp;</span>
               <button
@@ -44,7 +45,7 @@ function App() {
                     .classList.toggle("myCart_show");
                 }}
               >
-                My Cart
+                Show cart
               </button>
             </div>
           </nav>
